@@ -1,0 +1,58 @@
+{
+  "User": {
+    "_": {
+      "items": 10
+    },
+    "name": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
+    "email": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "description": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "companyname": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "address": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
+    "phonenum": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 10
+      }
+    },
+    "isDraft": {
+      "boolean": {}
+    },
+    "pageno": {
+      "int": {
+        "min": 0,
+        "max": 5
+      }
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
+  }
+}
